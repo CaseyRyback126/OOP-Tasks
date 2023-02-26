@@ -1,15 +1,15 @@
 package LinckedListRealisation;
 
 public class Node<T> {
-    private Node<User> next;
-    private Node<User> prev;
+    private Node<T> next;
+    private Node<T> prev;
     private T data;
 
-    public Node<User> getNext() {
+    public Node<T> getNext() {
         return next;
     }
 
-    public Node<User> getPrev() {
+    public Node<T> getPrev() {
         return prev;
     }
 
@@ -17,7 +17,7 @@ public class Node<T> {
         return data;
     }
 
-    public void setNext(Node<User> next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 
@@ -25,7 +25,7 @@ public class Node<T> {
         this.data = data;
     }
 
-    public void setPrev(Node<User> prev) {
+    public void setPrev(Node<T> prev) {
         this.prev = prev;
     }
 }
